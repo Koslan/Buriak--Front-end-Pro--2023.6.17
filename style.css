@@ -5,6 +5,7 @@ body, header, table, .footer p {
   
   h2, th, td {
     color: #adbac7; /* Text color, same as Sum of Balances button */
+    border-color: #373e47; /* Border color */
   }
   
   table {
@@ -30,6 +31,7 @@ body, header, table, .footer p {
   
   #balance-input {
     background-color: #444c56; /* Darker input field */
+    color: #adbac7; /* Text color, same as Sum of Balances button */
   }
   
   .btn-primary {
