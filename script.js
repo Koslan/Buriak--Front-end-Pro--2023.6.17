@@ -40,3 +40,14 @@ function calculateSum() {
 
 generateTable(users);
 calculateSum();
+
+
+window.onload = function () {
+    const currentPageUrl = window.location.href;
+    const username = currentPageUrl.split('/')[2].split('.')[0];
+    const repoName = currentPageUrl.split('/')[3];
+  
+    const githubRepoUrl = `https://github.com/${username}/${repoName}`;
+  
+    document.getElementById('github-link').href = githubRepoUrl;
+  };

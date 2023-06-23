@@ -1,28 +1,48 @@
-html,
-body {
-    height: 100%;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-}
-
-.center-screen {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.container {
-    flex: 1 0 auto;
-}
-
-footer {
-    flex-shrink: 0;
-}
-
-.form-group {
-    margin-bottom: 10px;
-}
+body, header, table, .footer p {
+    color: #adbac7; /* Text color */
+    background-color: #22272e; /* Background color */
+  }
+  
+  h2, th, td {
+    color: #adbac7; /* Text color, same as Sum of Balances button */
+  }
+  
+  table {
+    border-color: #373e47; /* Border color */
+    color: #adbac7
+  }
+  
+  a, .btn {
+    color: #58a6ff; /* Accent color */
+    border-color: #58a6ff; /* Accent color */
+  }
+  
+  a:hover, .btn:hover {
+    color: #1f6feb; /* Accent hover color */
+    border-color: #1f6feb; /* Accent hover color */
+  }
+  
+  select, #sum-label {
+    color: #adbac7; /* Text color */
+    background-color: #373e47; /* Input background color */
+    border-color: #444c56; /* Input border color */
+  }
+  
+  #balance-input {
+    background-color: #444c56; /* Darker input field */
+  }
+  
+  .btn-primary {
+    width: 100%; /* Makes the button wider */
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    background-color: #22272e; /* Footer background color to match body and header */
+    color: #8b949e; /* Subdued text color */
+  }
+  
